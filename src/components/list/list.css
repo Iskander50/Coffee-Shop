@@ -1,0 +1,79 @@
+.list {
+  background-color: #fbfbfb;
+  margin-top: 4rem;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ava {
+  width: 45px;
+  cursor: pointer;
+}
+.green {
+  color: #00512c;
+  cursor: pointer;
+}
+.location {
+  font-weight: 100;
+}
+.notification {
+  color: #00512c;
+  font-size: 37px;
+}
+.yudi {
+  font-weight: 200;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  width: 30%;
+}
+.search {
+  border-radius: 16px;
+  transform: translateX(550px);
+}
+
+.find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 20px;
+  border: none;
+  background: #f4f4f4;
+}
+
+.icon {
+  font-size: 30px;
+  color: #00512c;
+  cursor: pointer;
+}
+.list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  border-radius: 16px;
+  width: 7rem;
+  height: 2.5rem;
+  background: #fff;
+  color: #00582f;
+  cursor: pointer;
+}
+.list li:hover {
+  background: #00512f;
+  color: #fff;
+}
+.list ul {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}

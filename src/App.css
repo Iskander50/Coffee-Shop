@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:ital@1&display=swap");
+* {
+  font-family: "Cookie", cursive;
+  font-family: "Playfair Display", serif;
+}
+.bta {
+  background-color: #00512c;
+  border-radius: 16px;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  width: 5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+.bta:hover {
+  background-color: #d7b183;
+}
